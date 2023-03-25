@@ -1,0 +1,24 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+canvas{
+    display:black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+h1{
+    color:pink;
+    font: size 100px;
+}
+@keyframes example:
+from{
+    box-shadow:1px 1px 38px purple;
+}
+to{
+    box-shadow:  1px 1px 38px; rgb(5, 321, 247);
+
+}
+
+
